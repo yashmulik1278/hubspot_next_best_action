@@ -1,0 +1,15 @@
+[
+  {
+    "eventId": 2175471617,
+    "subscriptionId": 3573673,
+    "portalId": 242644925,
+    "appId": 11876236,
+    "occurredAt": 1747248388296,
+    "subscriptionType": "conversation.newMessage",
+    "attemptNumber": 0,
+    "objectId": 8711859900,
+    "messageId": "0853b402-3b7e-409c-bf09-edc50811ecd4",
+    "messageType": "MESSAGE",
+    "changeFlag": "NEW_MESSAGE"
+  }
+]
