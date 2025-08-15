@@ -1,0 +1,20 @@
+curl --request POST \
+  --url https://api.hubapi.com/conversations/v3/conversations/threads/8673472186/messages \
+  --header 'authorization: Bearer pat-na2-7285e36b-45d4-428b-8935-60c22c470ab7' \
+  --header 'content-type: application/json' \
+  --data '{
+  "type": "MESSAGE",
+  "text": "hiiii",
+  "recipients": [
+    {
+      "deliveryIdentifier": {
+        "type": "HS_EMAIL_ADDRESS",
+        "value": "yashmulik87@gmail.com"
+      },
+      "recipientField": "TO"
+    }
+  ],
+  "senderActorId": "A-79682389",
+  "channelId": "1002",
+  "channelAccountId": "1454968001"
+}'

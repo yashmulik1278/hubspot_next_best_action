@@ -1,0 +1,21 @@
+{
+    "inputs": [
+      {
+        "type": "promptString",
+        "id": "hubspotToken",
+        "description": "Enter your HubSpot Private App Token",
+        "password": true
+      }
+    ],
+    "servers": {
+      "hubspot": {
+        "type": "stdio",
+        "command": "F:\\Web Development\\Internship\\hubspot_MCP\\mcp-hubspot\\.venv\\Scripts\\python.exe",
+        "args": [
+          "-m", "mcp_server_hubspot.server",
+          "--access-token", "${input:hubspotToken}"
+        ]
+      }
+    }
+  }
+  
